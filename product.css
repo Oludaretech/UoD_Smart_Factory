@@ -24,6 +24,12 @@
     box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.2);
 }
 
+.form1 {
+    /* margin: 200px; */
+    padding-left: 700px;
+    padding-top: 100px;
+}
+
 .info-nav button {
     height: 60px;
     width: 620px;

@@ -175,10 +175,15 @@ body.active .wrapper .section {
     margin-right: 100px;
 }
 
+
+/* .info-main1 {
+    display: flex;
+} */
+
 img {
     height: 600px;
     width: 800px;
-    margin-right: 100px;
+    margin-right: 1px;
 }
 
 .info-title {
@@ -234,7 +239,25 @@ img {
     box-shadow: #717171;
 }
 
+.conti-btn2 {
+    background-color: rgb(5, 68, 104);
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 50% 5% 5% 50%;
+    box-shadow: #717171;
+}
+
 .a-btn {
+    color: white;
+}
+
+.a-btn2 {
     color: white;
 }
 
@@ -242,4 +265,9 @@ footer {
     margin-top: 600px;
     margin-left: 20px;
     color: grey;
+}
+
+.wd {
+    color: red;
+    font-weight: bolder;
 }

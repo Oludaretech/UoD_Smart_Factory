@@ -104,36 +104,71 @@
 
 
         <div class="info-main1">
-            <br>
-            <h1>Constomize Product</h1>
-            <br>
-            <div class="color">
-                <h4>Select Product</h4>
-                <select name="products" id="dropdown">
+            <div class="form1">
+
+                <br>
+                <h1>Constumize Product</h1>
+                <br>
+                <div class="color">
+
+                    <h4>Select Product Category</h4>
+
+                    <select name="products" id="dropdown">
+                <option value="selection">Category</option>
+                <option value="bag">Parts</option>
+                <option value="bag">Assembling</option>
+          
+            </select>
+                    <br>
+                    <br>
+
+                    <h4>Select Product</h4>
+
+                    <select name="products" id="dropdown">
                 <option value="selection">Product</option>
                 <option value="bag">Mobile back cover</option>
                 <option value="bag">Mobile fron cover</option>
                 <option value="bag">Main cover</option> 
             </select>
-                <br>
-            </div>
-            <br>
-            <h4>Product Quantity</h4>
-            <div>
-                <button><a href="color-customize.html">Next</a></button>
+
+                    <br>
+                    <br>
+                    <h4>Material</h4>
+
+                    <select name="products" id="dropdown">
+                <option value="selection">Material</option>
+                <option value="bag">PLA</option>
+                <option value="bag">HDPE</option>
+                <option value="bag">Metals</option> 
+            </select>
+
+                    <br>
+                    <br>
+
+                    <h4>Quantity</h4>
+
+                    <form action="/action_page.php">
+                        <label for="quantity">Quantity (between 1 and 50):</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="50">
+
+                    </form>
+                    <button class="conti-btn2"><a class="a-btn2" href="Ourproduct.html">Back</a></button>
+                    <button class="conti-btn"><a class="a-btn" href="color-customize.html">Click to customize</a></button>
+
+
+                </div>
 
             </div>
-        </div>
 
 
 
 
-        <script>
-            var hamburger = document.querySelector(".hamburger");
-            hamburger.addEventListener("click", function() {
-                document.querySelector("body").classList.toggle("active");
-            })
-        </script>
+            <script>
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function() {
+                    document.querySelector("body").classList.toggle("active");
+                })
+            </script>
 </body>
 
 </html>
